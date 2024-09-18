@@ -1,25 +1,25 @@
 # Incident Handler’s Journal
-Incident Summary:
-Date: 2024-09-15
-Time of Detection: 14:30 UTC
-Incident Name: Unauthorized Network Access Attempt (Incident #1234)
-Detection Method: SIEM Alert triggered for unusual outbound traffic.
-Incident Type: Network intrusion
-Severity: High
+Incident Summary:  
+Date: 2024-09-15  
+Time of Detection: 14:30 UTC  
+Incident Name: Unauthorized Network Access Attempt (Incident #1234)  
+Detection Method: SIEM Alert triggered for unusual outbound traffic.  
+Incident Type: Network intrusion  
+Severity: High  
 
 # Incident Timeline
 
-**[2024-09-15, 14:30 UTC]**: SIEM alert triggered for abnormal outbound traffic to suspicious IP (203.0.113.45) from internal workstation (192.168.1.12).
+**[15-09-2024, 14:30 UTC]**: SIEM alert triggered for abnormal outbound traffic to suspicious IP (203.0.113.45) from internal workstation (192.168.1.12).
 
-**[2024-09-15, 14:35 UTC]**: SOC Analyst begins initial investigation. Traffic logs reviewed; suspicious pattern indicates possible data exfiltration attempt.
+**[15-09-2024, 14:35 UTC]**: SOC Analyst begins initial investigation. Traffic logs reviewed; suspicious pattern indicates possible data exfiltration attempt.
 
-**[2024-09-15, 14:50 UTC]**: Initial containment initiated. Firewall rules updated to block outbound traffic to suspicious IP.
+**[15-09-20245, 14:50 UTC]**: Initial containment initiated. Firewall rules updated to block outbound traffic to suspicious IP.
 
-**[2024-09-15, 15:10 UTC]**: Endpoint protection scan initiated on workstation. Malicious PowerShell script identified and quarantined.
+**[15-09-2024, 15:10 UTC]**: Endpoint protection scan initiated on workstation. Malicious PowerShell script identified and quarantined.
 
-**[2024-09-15, 15:30 UTC]**: Security Incident Response Team (SIRT) notified for further investigation.
+**[15-09-2024, 15:30 UTC]**: Security Incident Response Team (SIRT) notified for further investigation.
 
-**[2024-09-15, 15:45 UTC]**: Memory dump and forensic analysis initiated. Indicators of compromise (IOCs) gathered.
+**[15-09-2024, 15:45 UTC]**: Memory dump and forensic analysis initiated. Indicators of compromise (IOCs) gathered.
 # Root Cause
 
 **Initial Intrusion Vector:** Phishing email containing malicious link, delivered to user on internal workstation (192.168.1.12). User executed the link, leading to the download of a PowerShell-based malware.
