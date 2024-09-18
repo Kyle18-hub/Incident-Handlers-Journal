@@ -2,7 +2,7 @@
 Incident Summary:  
 Date: 2024-09-15  
 Time of Detection: 14:30 UTC  
-Incident Name: Unauthorized Network Access Attempt (Incident #1234)  
+Incident Name: Unauthorized Network Access Attempt (Incident #165)  
 Detection Method: SIEM Alert triggered for unusual outbound traffic.  
 Incident Type: Network intrusion  
 Severity: High  
@@ -49,3 +49,5 @@ Severity: High
 1. **Importance of Proactive Threat Detection:** The incident was identified by a SIEM alert due to unusual traffic patterns. This emphasizes the value of network monitoring tools.
 2. **User Education:** The initial point of failure was a phishing email, underlining the importance of regular training and awareness for all employees.
 3. **Quick Containment:** Blocking the IP quickly prevented further data exfiltration, demonstrating the effectiveness of prompt response actions.
+
+*please note that this was a fictional incident
